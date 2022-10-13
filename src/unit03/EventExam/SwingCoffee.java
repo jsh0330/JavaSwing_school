@@ -64,7 +64,7 @@ public class SwingCoffee extends JFrame implements ItemListener{
 				ta.append("카푸치노가 선택되었습니다."+"\n");
 			}
 		}
-		
+		//
 		else if (e.getStateChange() == ItemEvent.DESELECTED) {
 			if (e.getItem() == ame) {
 				ta.append("아메리카노가 해제되었습니다."+"\n");
